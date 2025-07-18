@@ -1,0 +1,26 @@
+import Svg, { Path, Circle } from 'react-native-svg';
+import { View } from 'react-native';
+
+interface PlusAddIconProps {
+  size?: number;
+}
+
+const PlusAddIcon = ({ size = 30 }: PlusAddIconProps) => (
+  <View style={{ width: size, height: size }}>
+    <Svg width="100%" height="100%" viewBox="0 0 40 40" fill="none">
+      <Circle cx="20" cy="20" r="20" fill="#4F46E5" />
+      <Path
+        d={
+          'M27.7857 18.6786H22.3214V13.2143C22.3214 12.5438 21.7777 12 21.1071 12H19.8929C19.2223 12 ' +
+          '18.6786 12.5438 18.6786 13.2143V18.6786H13.2143C12.5438 18.6786 12 19.2223 12 19.8929V21.1071C12 ' +
+          '21.7777 12.5438 22.3214 13.2143 22.3214H18.6786V27.7857C18.6786 28.4562 19.2223 29 19.8929 29H21.1071C' +
+          '21.7777 29 22.3214 28.4562 22.3214 27.7857V22.3214H27.7857C28.4562 22.3214 29 21.7777 29 21.1071V19.8929C' +
+          '29 19.2223 28.4562 18.6786 27.7857 18.6786Z'
+        }
+        fill="white"
+      />
+    </Svg>
+  </View>
+);
+
+export default PlusAddIcon;

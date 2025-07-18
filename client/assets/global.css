@@ -1,7 +1,8 @@
 /* global.css */
-:root {
+/* :root {
   --color-primary: #4F46E5;
   --color-secondary: #6366F1;
+  --color-secondary-10: rgba(99, 102, 241, 0.1);
   --color-background: #F9FAFB;
   --color-primary-dark: #111827;
   --color-secondary-light: #6B7280;
@@ -11,8 +12,9 @@
 .dark {
   --color-primary: #6366F1;
   --color-secondary: #4F46E5;
+  --color-secondary-10: #111827;
   --color-background: #111827;
   --color-primary-dark: #F9FAFB;
   --color-secondary-light: #D1D5DB;
   --color-error: #F87171;
-}
+} */
